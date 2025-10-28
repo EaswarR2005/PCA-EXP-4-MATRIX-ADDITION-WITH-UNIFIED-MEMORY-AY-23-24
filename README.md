@@ -514,7 +514,12 @@ int main(int argc, char **argv)
 }
 ```
 ## OUTPUT:
+### with memset:
+<img width="1602" height="157" alt="image" src="https://github.com/user-attachments/assets/0137962e-1e75-446a-82e3-38f5ea69565c" />
+
+## without memset:
+<img width="1605" height="137" alt="image" src="https://github.com/user-attachments/assets/e7e8219c-3f3f-4917-9a1a-137f58c51b43" />
 
 
 ## RESULT:
-Thus the program has been executed by using unified memory. It is observed that removing memset function has given less/more_______________time.
+Thus the program has been executed by using unified memory. It is observed that removing memset function has given more  0.007591 sec time.
